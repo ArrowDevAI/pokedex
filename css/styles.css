@@ -1,28 +1,39 @@
 
-}
-.pokemon-list :hover{
+.button-class :hover{
         opacity: .6;
     }
-.pokemon-list:active{
+.button-class:active{
     background-color: #353733;
     color: #eaf1ec;
     font-size: 30px;
     }
-}
-.button-class {
-    background-color: #4caf50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border: 2px solid #4caf50;
-  }
+    .button-class {
+        background-color: #eaf1ec;
+        color: #353733;
+        text-align: center;
+        font-size: 25PX;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        padding: 20px;
+        justify-content: center;
+        margin: 10px;
+        padding: 30px;
+        width: 600px;
+        max-width: 600px;
+        min-width: 50px;
+        border-color: #000000;
+        border-radius: 5px;
+        border-width: .3px;
+        list-style-type: none;
+        list-style: none
+    }
+    li {
+        list-style-type: none;
+        text-decoration: none;
+        margin-right: 200px;
+        text-align: center;
+        justify-content: center;
+       }
+       
