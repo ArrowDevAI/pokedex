@@ -53,7 +53,7 @@ let pokemonRepository = (function () {
         return response.json();
       })
       .then(function (details) {
-        item.imageUrl = details.sprites.front_default;
+        item.imageUrl = details.sprites.other.dream_world.front_default;
         item.height = details.height;
       }).catch(function (e) {
         console.error(e);
